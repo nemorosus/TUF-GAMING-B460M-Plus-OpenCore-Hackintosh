@@ -21,7 +21,7 @@ OpenCore 0.8.7 for TUF B460M that has been tested to work from Catalina to Ventu
 | :white_check_mark: | Native power management  |
 | :white_check_mark: | Sound (output+inputs)                                 |
 | :white_check_mark: | USB 2.0 and 3.0 - all ports                              |
-| :white_check_mark: | AMD RX580 Full Graphics Acelleration                    |
+| :white_check_mark: | AMD RX580 Full Hardware Decoder + DRM                    |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
 | :white_check_mark: | iCloud, FaceTime, etc.                                          |
