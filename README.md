@@ -1,5 +1,5 @@
 # TUF-GAMING-B460M-Plus-OpenCore-Hackintosh
-OpenCore 0.8.7 for TUF B460M that has been tested to work from Catalina to Ventura (and we'll update for future versions)
+OpenCore 0.8.7 for TUF B460M that has been tested to work from Catalina to Ventura (and I will try to update for future versions if there are neccesery changes required)
 
 ![Ventura Screenshot](https://raw.githubusercontent.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/main/Screenshot.png)
 
@@ -31,10 +31,7 @@ This is a fork of this [MSI B460M PRO](https://addrom.com/efi-msi-b460m-pro-inte
 ⚠️ The versions with Wi-Fi & Bluetooth are more common, but it generally is the same thing just with few patches for those chips to work. As that motherboard is much more popular than what I have without, you can browse through other repositories here and see what and how they patched the hardware to work, but I reckon is pretty easy because I've seen those confirmed to work just fine.
 
 ###  :label: ​Installation Notes
-— Generate correct serial numbers and replace the "XXXX" placeholders in the config.plist
-
-— If you are using supported AMD card, you should have full hardware acelleration by default with this configuration
-
-— If you use another processor with iGPU, there might be some tweaks you will need to do by yourself
-
-— [Check Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/) for the proper guide
+* [Check Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/) for the detailed guide on all parts
+* Generate correct serial numbers and replace the "XXXX" placeholders in the config.plist
+* If you are using supported AMD card, you should have full hardware acelleration by default with this configuration
+* If you use another processor with iGPU, there might be some tweaks you will need to do by yourself
