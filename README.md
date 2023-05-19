@@ -1,5 +1,6 @@
 # TUF-GAMING-B460M-Plus-OpenCore-Hackintosh
-OpenCore 0.8.7 for TUF B460M that has been tested to work from Catalina to Ventura
+OpenCore 0.9.2 for TUF B460M
+This is for the version without Wireless & Bluetooth
 
 ![Ventura Screenshot](https://raw.githubusercontent.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/main/Screenshot.png)
 
@@ -33,5 +34,3 @@ OpenCore 0.8.7 for TUF B460M that has been tested to work from Catalina to Ventu
 * Generate correct serial numbers and replace the "XXXX" placeholders in the config.plist
 * If you are using supported AMD card, you should have full hardware acelleration by default with this configuration
 * If you use another processor with iGPU, there might be some tweaks you will need to do by yourself
-
-This is a fork of this [MSI B460M PRO](https://addrom.com/efi-msi-b460m-pro-intel-i5-10400-amd-rx470-and-macos-ventura/) configuration, with slight adjustments to work with the TUF motherboard.
