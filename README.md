@@ -1,10 +1,10 @@
 # TUF-GAMING-B460M-Plus-OpenCore-Hackintosh
-OpenCore 0.9.2 for TUF B460M
-This is for the version without Wireless & Bluetooth
+![new_bgr_0 9 9](https://github.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/assets/6278519/ebcdddf9-e2aa-423d-ad79-542a30c74caa)
 
-![Ventura Screenshot](https://raw.githubusercontent.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/main/Screenshot.png)
+![Screenshot 2024-03-18 at 19 17 59](https://github.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/assets/6278519/f60b23e6-14da-4ea9-84fd-34a6e66ac4fd)
 
-###  :mag_right: Specifications 
+
+###  :mag_right: 👾 Specifications 
 
 | Part        | Specs                                             |
 | ----------- | ------------------------------------------------- |
@@ -13,23 +13,27 @@ This is for the version without Wireless & Bluetooth
 | dGPU        | AMD RX580 8GB (ASUS DUAL-RX580-O8G)               |
 | Audio       | Realtek S1200A                                    |
 | Ethernet    | Intel® I219-V LAN                                 |
+| Wi-Fi       | Broadcom BCM4360                                  |
+| Bluetooth   | Broadcom BRCM20702                                |
 | Motherboard | ASUS TUF Gaming B460M Plus with latest BIOS |
 
-### :bulb: ​Working/Not working
+### :bulb: ​👌
 
 | Works              | Feature                                               |
 | ------------------ | ----------------------------------------------------- |
-| :white_check_mark: | Native power management  |
+| :white_check_mark: | Native power management                               |
 | :white_check_mark: | Sound (output+inputs)                                 |
-| :white_check_mark: | USB 2.0 and 3.0 - all ports                              |
-| :white_check_mark: | AMD RX580 Full Hardware Decoder + DRM                    |
+| :white_check_mark: | USB 2.0 and 3.0 - all ports                           |
+| :white_check_mark: | AMD RX580 Full Hardware Decoder + DRM                 |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
-| :white_check_mark: | Ethernet                                              |
-| :white_check_mark: | iCloud, FaceTime, etc.                                          |
+| :white_check_mark: | Ethernet, Bluetooth, Wi-Fi (⋆)                        |
+| :white_check_mark: | iCloud, FaceTime, AirDrop, etc.                       |
+| :white_check_mark: | FileVault                                             |
 
-⚠️ The versions with Wi-Fi & Bluetooth are more common, but it generally is the same thing just with few patches for those chips to work. As that motherboard is much more popular than what I have without, you can browse through other repositories here and see what and how they patched the hardware to work, but I reckon is pretty easy because I've seen those confirmed to work just fine.
+⚠️ For Wi-Fi, you need to apply OCP root wireless patches. Also, for best security please consider constricting the configuration and modify it towards your goals, as at it current state its very open and only recommended for people who know what they're doing.
 
 ###  💿 ​Installation Notes
+* Download the latest in Releases > And start there with the read-me!
 * [Check Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/) for the detailed guide on all parts
 * Generate correct serial numbers and replace the "XXXX" placeholders in the config.plist
 * If you are using supported AMD card, you should have full hardware acelleration by default with this configuration
