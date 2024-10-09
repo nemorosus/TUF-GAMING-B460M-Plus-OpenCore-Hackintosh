@@ -1,8 +1,7 @@
 # TUF-GAMING-B460M-Plus-OpenCore-Hackintosh
-![new_bgr_0 9 9](https://github.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/assets/6278519/ebcdddf9-e2aa-423d-ad79-542a30c74caa)
+![hack-header](https://github.com/user-attachments/assets/ae796833-dc98-4600-9b42-5dcf7b747671)
 
-![Screenshot 2024-03-18 at 19 17 59](https://github.com/nemorosus/TUF-GAMING-B460M-Plus-OpenCore-Hackintosh/assets/6278519/f60b23e6-14da-4ea9-84fd-34a6e66ac4fd)
-
+Updated on 9th October, 2024
 
 ###  :mag_right: 👾 Specifications 
 
@@ -26,11 +25,11 @@
 | :white_check_mark: | USB 2.0 and 3.0 - all ports                           |
 | :white_check_mark: | AMD RX580 Full Hardware Decoder + DRM                 |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
-| :white_check_mark: | Ethernet, Bluetooth, Wi-Fi (⋆)                        |
+| :white_check_mark: | Ethernet, Bluetooth                                   |
 | :white_check_mark: | iCloud, FaceTime, AirDrop, etc.                       |
 | :white_check_mark: | FileVault                                             |
 
-⚠️ For Wi-Fi, you need to apply OCP root wireless patches. Also, for best security please consider constricting the configuration and modify it towards your goals, as at it current state its very open and only recommended for people who know what they're doing.
+⚠️ For Wi-Fi, I'm working to find a fix but I'm waiting for peoples with more brains than you, me and lots other combined to figure the appropriate BCM4360 patching on MacOS 15.X+~!
 
 ###  💿 ​Installation Notes
 * Download the latest in Releases > And start there with the read-me!
