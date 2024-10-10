@@ -30,7 +30,8 @@ Updated on 9th October, 2024
 | :white_check_mark: | FileVault                                             |
 
 ⚠️ For Wi-Fi, I'm working to find a fix but I'm waiting for peoples with more brains than you, me and lots other combined to figure the appropriate BCM4360 patching on MacOS 15.X+~!
-💁🏽 **Update: **So I had issues because I didn't update AMFIpass.kext to 1.4.1, it'll boot without any issues with the Wi-Fi working.
+💁🏽 **🛜 Update: **
+So I had issues because I didn't update AMFIpass.kext to 1.4.1, it'll boot without any issues with the Wi-Fi working.
 
 ###  💿 ​Installation Notes
 * Download the latest in Releases > And start there with the read-me!
