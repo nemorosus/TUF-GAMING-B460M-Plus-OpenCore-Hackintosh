@@ -1,3 +1,5 @@
+Info: This repository won't be updated anymore, good luck with your hack journey!
+
 # TUF-GAMING-B460M-Plus-OpenCore-Hackintosh
 ![hack-header](https://github.com/user-attachments/assets/ae796833-dc98-4600-9b42-5dcf7b747671)
 
